@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script>
+    // Preserve the route for Angular
+    var redirect = location.pathname.replace('/moviehost', '');
+    sessionStorage.redirect = redirect;
+    location.replace('/moviehost/');
+  </script>
+</head>
+<body></body>
+</html>
